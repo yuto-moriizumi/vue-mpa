@@ -6,10 +6,12 @@
 <script lang="ts">
 import { Options, Vue } from "vue-class-component";
 import HelloWorld from "./components/HelloWorld.vue";
+import HelloWorld2 from "./components/HelloWorld2.vue";
 
 @Options({
   components: {
     HelloWorld,
+    HelloWorld2,
   },
 })
 export default class App extends Vue {}
